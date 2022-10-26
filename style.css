@@ -10,8 +10,8 @@
 }
 
 body{
-    font-size: 100%;
-    background: linear-gradient(68.15deg, #4b0202 16.62%, #000000 85.61%);
+    font-size: 100%;    
+    background: linear-gradient(68.15deg, #4b0202 16.62%, #000000 85.61%);   
 }
 
 .cabecalho{
@@ -28,7 +28,7 @@ body{
 
 .cabecalho-menu{
     display: flex;
-    gap: 32px;
+    gap: 20px;
 }
 
 .cabecalho-menu-item{
@@ -126,14 +126,12 @@ body{
 }
 
 .rodape-imagem{
-    height: 250px;
+    height: 160px;
     display: block;
     margin: 0 auto;
+    align-items: center;
 }
 
-.conteudo-principal-link{
-    width: fit-content;
-}
 
 @media screen and (max-width: 880px) {
     .conteudo-principal{
